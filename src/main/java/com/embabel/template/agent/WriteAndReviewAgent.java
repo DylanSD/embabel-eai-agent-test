@@ -85,7 +85,7 @@ record ReviewedStory(
     }
 }
 
-@Agent(description = "Generate a story based on user input and review it")
+//@Agent(description = "Generate a story based on user input and review it")
 @Profile("!test")
 class WriteAndReviewAgent {
 
